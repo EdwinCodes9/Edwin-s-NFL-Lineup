@@ -45,6 +45,47 @@ app.get('/defense', (req, res) => {
     });
 });
 
+app.get('/new', (req, res) => {
+    res.render('new.ejs')
+});
+
+app.get('/:id', (req, res) => {
+    PlayerCollection.findById(req.params.id).then((foundPlayer) => {
+        res.render('show.ejs', {
+            Player: foundPlayer
+        });
+    });
+})
+
+app.get('/:id/edit', (req, res) => {
+    PlayerCollection.findById(req.params.id).then((foundPlayer) =>{
+        res.render('edit.ejs', {
+            Player: foundPlayer
+        });
+    });
+});
+
+
+
+//Action Routes
+app.post('/', (req, res) => {
+    PlayerCollection.create(req.body).then((createdPlayer) => {
+        res.redirect('/')
+    });
+});
+
+app.put('/:id', (req, res) => {
+    PlayerCollection.findByIdAndUpdate(req.params.id, req.body).then(() => {
+        res.redirect('/')
+    });
+});
+
+app.delete('/:id', (req, res) => {
+    PlayerCollection.findByIdAndRemove(req.params.id).then(() => {
+        res.redirect('/')
+    });
+});
+
 app.listen(3000, () => {
     console.log('Im listening Boss man......')
 });

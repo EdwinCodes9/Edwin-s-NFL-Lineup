@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <%- include('./partials/head.ejs')%>
+</head>
+<body class="show">
+    <div class="card">
+        <div>
+        <img class="img" rc="<%=Player.img%>">
+        </div>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><a class="player-id">
+                            <%=Player.name%>
+                        </a></td>
+                    <td>
+                        <%=Player.position%>
+                    </td>
+                    <td>
+                        OVR: <%=Player.ovr%>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <button class="btn btn-outline-primary"><a href="/">BACK</a></button>
+  
+</body>
+</html>

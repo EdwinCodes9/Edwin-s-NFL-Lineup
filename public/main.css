@@ -7,8 +7,8 @@ body{
     margin-right: auto;
 }
 
-.row{
-    margin: 20px;
+.img{
+    max-width: 100%;
 }
 
 nav{
@@ -25,7 +25,9 @@ li{
 a:link{
     text-decoration: none;
 }
-
+a{
+    color: black;
+}
 .DL{
     font-family: 'Gajraj One', cursive;
     color: black;
@@ -33,4 +35,17 @@ a:link{
 
 .anchor{
     color: lightslategray;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+.bottom-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
