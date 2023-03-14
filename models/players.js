@@ -5,7 +5,7 @@ module.exports = [
         height: "6'4''",
         tag: "Offense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "./public/NFL.IMGS/TomBrady.png"
     },
     {
         name: "Jason Kelce",

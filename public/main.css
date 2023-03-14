@@ -43,6 +43,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 700px;
+    width: 700px;
 }
 .bottom-btn{
     display: flex;
