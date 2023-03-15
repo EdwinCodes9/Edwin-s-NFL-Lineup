@@ -5,7 +5,9 @@ module.exports = [
         height: "6'4''",
         tag: "Offense",
         ovr: 99,
-        img: "./public/NFL.IMGS/TomBrady.png"
+        img: {
+            title: 'img', path:'/NFL.IMGS/TomBrady.png'
+        }
     },
     {
         name: "Jason Kelce",
