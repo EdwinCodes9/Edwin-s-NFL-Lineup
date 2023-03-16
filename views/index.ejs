@@ -36,10 +36,12 @@
                         </tr>
                     </tbody>
                 </table>
+                <div class="btn">
                 <form action="/<%=Player[i]._id%>?_method=DELETE" method="post">
                     <input class="btn btn-outline-primary" type="submit" value="DELETE">
                 </form>
                 <a class="btn btn-outline-primary" href="<%=Player[i]._id%>/edit">EDIT</a>
+                </div>
             </div>
         <% } %>
     </div>
