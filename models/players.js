@@ -5,9 +5,8 @@ module.exports = [
         height: "6'4''",
         tag: "Offense",
         ovr: 99,
-        img: {
-            title: 'img', path:'/NFL.IMGS/TomBrady.png'
-        }
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
+        
     },
     {
         name: "Jason Kelce",
@@ -15,7 +14,7 @@ module.exports = [
         height: "6'3''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Larry Allen",
@@ -23,7 +22,7 @@ module.exports = [
         height: "6'3''",
         tag: "Offense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Quenton Nelson",
@@ -31,7 +30,7 @@ module.exports = [
         height: "6'5''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Lane Johnson",
@@ -39,7 +38,7 @@ module.exports = [
         height: "6'6''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Trent Williams",
@@ -47,7 +46,7 @@ module.exports = [
         height: "6'5''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Marshawn Lynch",
@@ -55,7 +54,7 @@ module.exports = [
         height: "5'11''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Christian McCaffrey",
@@ -63,7 +62,7 @@ module.exports = [
         height: "5'11''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "George Kittle",
@@ -71,7 +70,7 @@ module.exports = [
         height: "6'4''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Deebo Samuel",
@@ -79,7 +78,7 @@ module.exports = [
         height: "6'0''",
         tag: "Offense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Julio Jones",
@@ -87,7 +86,7 @@ module.exports = [
         height: "6'3''",
         tag: "Offense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg" 
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg" 
     },
     {
         name: "Aaron Donald",
@@ -95,7 +94,7 @@ module.exports = [
         height: "6'1''",
         tag: "Defense",
         ovr: 100,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Vince Wilfork",
@@ -103,7 +102,7 @@ module.exports = [
         height: "6'2''",
         tag: "Defense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "JJ Watt",
@@ -111,7 +110,7 @@ module.exports = [
         height: "6'5''",
         tag: "Defense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Joey Bosa",
@@ -119,7 +118,7 @@ module.exports = [
         height: "6'5''",
         tag: "Defense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Ray Lewis",
@@ -127,7 +126,7 @@ module.exports = [
         height: "6'1''",
         tag: "Defense",
         ovr: 100,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Luke Kuechly",
@@ -135,7 +134,7 @@ module.exports = [
         height: "6'3''",
         tag: "Defense",
         ovr: 100,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Von Miller",
@@ -143,7 +142,7 @@ module.exports = [
         height: "6'3''",
         tag: "Defense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Kam Chancellor",
@@ -151,7 +150,7 @@ module.exports = [
         height: "6'3''",
         tag: "Defense",
         ovr: 100,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Earl Thomas",
@@ -159,7 +158,7 @@ module.exports = [
         height: "5'10''",
         tag: "Defense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Richard Sherman",
@@ -167,7 +166,7 @@ module.exports = [
         height: "6'3''",
         tag: "Defense",
         ovr: 98,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
     {
         name: "Charles Woodson",
@@ -175,6 +174,6 @@ module.exports = [
         height: "6'3''",
         tag: "Defense",
         ovr: 99,
-        img: "https://m.media-amazon.com/images/I/71Z5mqu0l+L.jpg"
+        img: "https://i.ebayimg.com/images/g/pzgAAOxyVaBS4T5H/s-l500.jpg"
     },
 ]
