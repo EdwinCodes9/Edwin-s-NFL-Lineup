@@ -15,11 +15,11 @@ mongoose.connect('mongodb://localhost:27017/lineup').then(() => {
     console.log('connected and ready to roll......')
 });
 
-app.get('/seed', (req, res) => {
-    PlayerCollection.create(Player).then(() => {
-        res.send(Player)
-    });
-});
+// app.get('/seed', (req, res) => {
+//     PlayerCollection.create(Player).then(() => {
+//         res.send(Player)
+//     });
+// });
 
 app.get('/', (req, res) => {
     PlayerCollection.find({}).then((allPlayers) =>{
